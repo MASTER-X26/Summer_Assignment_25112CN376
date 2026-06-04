@@ -29,7 +29,7 @@ int main()
         cin >> array[i];
     }
 
-    cout << "Enter how many times array have to be left shifted: ";
+    cout << "Enter how many times array have to be right shifted: ";
     cin >> shifts;
 
     for(i=0;i<shifts;i++)
