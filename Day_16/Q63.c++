@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int i,j,element,terms,sum=0;
+    bool condition = false;
     
     while (true)
     {
@@ -41,9 +42,15 @@ int main()
             if(array[i] + array[j] == sum)
             {
                 cout << "PAIR OF SUM, " << sum << " IS = " << array[i] << " and " << array[j] << endl;
+                condition = true;
             }
         }
     }
 
+    if(condition == false)
+    {
+        cout << "NO PAIR IN ARRAY WHOSE SUM = " << sum;
+    }
+    
     return 0;
 }
