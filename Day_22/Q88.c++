@@ -18,7 +18,7 @@ int main()
         }
         else
         {
-            temp += + word[i];
+            temp += word[i];
         }
     }
 
